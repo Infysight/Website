@@ -1,0 +1,13 @@
+# Placeholder for favicon
+# To add a favicon:
+# 1. Create a 32x32 pixel icon in ICO format
+# 2. Name it 'favicon.ico'
+# 3. Place it in the root directory
+# 4. The HTML already includes the favicon link
+
+# You can create a favicon using online tools like:
+# - favicon.io
+# - realfavicongenerator.net
+# - canva.com
+
+# For now, the browser will use a default icon
