@@ -23,7 +23,12 @@ body {
 }
 
 /* Typography */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-weight: 600;
     line-height: 1.2;
     margin-bottom: 1rem;
@@ -189,8 +194,8 @@ p {
 
 .logo-image {
     height: 60px;
-    width: 200px;
-    object-fit: fill;
+    width: auto;
+    object-fit: contain;
 }
 
 .nav-menu {
@@ -308,9 +313,12 @@ p {
 }
 
 @keyframes float {
-    0%, 100% {
+
+    0%,
+    100% {
         transform: translateY(0px);
     }
+
     50% {
         transform: translateY(-20px);
     }
@@ -1178,7 +1186,8 @@ p {
     height: 50px;
     width: auto;
     object-fit: contain;
-    filter: brightness(0) invert(1); /* Makes the logo white for dark footer */
+    filter: brightness(0) invert(1);
+    /* Makes the logo white for dark footer */
 }
 
 .footer-section p {
@@ -1241,6 +1250,7 @@ p {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+
     /* Navigation */
     .nav-menu {
         position: fixed;
